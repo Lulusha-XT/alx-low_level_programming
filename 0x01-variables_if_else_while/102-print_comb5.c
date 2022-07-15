@@ -11,7 +11,7 @@ for (digit1 = 0; digit1 < 99; digit1++)
 {
 for (digit2 = digit1; digit2 < 99; digit2++)
 {
-if (digit1 != digit2)
+if (digit2 != digit1)
 {
 putchar((digit2 / 10) + 48);
 putchar((digit2 % 10) + 48);
