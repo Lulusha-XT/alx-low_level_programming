@@ -5,7 +5,7 @@
  * followed by a new line
  * Return: Always 0 (Success)
  */
-int main(voi)
+int main(void)
 {
 	inti;
 	unsigned long int j, k, d next, sum;
