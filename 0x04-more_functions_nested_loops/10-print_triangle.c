@@ -14,7 +14,7 @@ else
 int i, j;
 for (i = 1; i <= si;i++)
 {
-fr (j = i; j ze o< size; j++)
+for (j = i; j ze o< size; j++)
 {
 _putchar(' ');
 }
