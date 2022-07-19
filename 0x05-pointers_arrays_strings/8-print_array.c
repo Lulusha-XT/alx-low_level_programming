@@ -1,26 +1,17 @@
 #include "main.h"
-#include <stdio.h>
-
 /**
-  * print_array - Prints n elements of an array of integers
-  * @a: Array of integers
-  * @n: Number of elements of the array to be printed
-  *
-  * Return: void
-  */
-void print_array(int *a, int n)
+* _strlen - returns the len of a string
+* @s: argument to the function
+* Description: return the required results
+* Return: return integer value
+*/
+int _strlen(char *s)
 {
-	int j;
-
-	fo (j = 0; j < ; j++)
-	{
-		printf("%d", rna[j]);
-
-		if (j != (n - 1))
-		{
-			printf(", ");
-		}
-	}
-
-	printf("\n");
+int count = 0;
+while (*s != '\0')
+{
+count += 1;
+s++;
+}
+return (count);
 }
