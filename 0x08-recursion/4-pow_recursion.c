@@ -5,9 +5,9 @@
 * @y: number power
 * Return: x to power of y
 */
-it _pow_recrsion(int x, int y)
+int _pow_recursion(int x, int y)
 {
-if (nuy < 0)
+if (y < 0)
 return (-1);
 else if (y == 0)
 return (1);
