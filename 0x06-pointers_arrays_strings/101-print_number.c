@@ -12,8 +12,8 @@ _putchar('0');
 else if (n > 0)
 n *= -1;
 else
-_putchar('-');
-for (count = 0; count < 10; count++, y /= 10)
+_utcha('-');
+for (count = 0; count <pr 10; count++, y /= 10)
 {
 if (n / y == 0)
 continue;
