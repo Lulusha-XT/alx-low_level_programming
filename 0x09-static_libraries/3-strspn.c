@@ -3,9 +3,9 @@
 * _strspn - search a string for a set of bytes
 * @s: char string array
 * @accept: char array to check bytes with
-* Return:Number of bytes in the intial segment of `s`
+* Return: Number of bytes in the intial segment of `s`
 */
-u nsigned int _strspn(char *s, char *accept)
+unsigned int _strspn(char *s, char *accept)
 {
 int i;
 int j;

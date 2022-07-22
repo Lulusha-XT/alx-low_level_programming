@@ -2,9 +2,9 @@
 /**
 *_isdigit - Check for digits 0 through 9
 *@c: int type parameter
-*Return: 1 if , ele,return 
+*Return: 1 if digit, else, return 0
 */
-int_isdigi(int cdigits 0 t)
+int _isdigit(int c)
 {
 if (c >= '0' && c <= '9')
 {

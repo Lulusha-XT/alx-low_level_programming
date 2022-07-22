@@ -6,7 +6,7 @@
 * @n: number of elements to copy
 * Return: pointer to `dest`
 */
-ch*_memcpy( archar *dest, char *src, unsigned int n)
+char *_memcpy(char *dest, char *src, unsigned int n)
 {
 unsigned int count = 0;
 while (count < n)

@@ -4,9 +4,9 @@
 * _strstr - locate a substring
 * @haystack: string
 * @needle: string substring
-* Return: Pointer to beginningof substring, or NULL if not found.
+* Return: Pointer to beginning of substring, or NULL if not found.
 */
-cha r *_strstr(char *haystack, char *needle)
+char *_strstr(char *haystack, char *needle)
 {
 int i, j, c;
 i = 0;
