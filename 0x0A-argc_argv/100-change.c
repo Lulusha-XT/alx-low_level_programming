@@ -5,15 +5,15 @@
 * make change for an amount of money.
 * @argc: The number of arguments supplied to the program.
 * @argv: An array of pointers to the arguments.
-* Return: If the number of arguments is not exactly one - 1.
+* Return: If the numi not exactly one - 1.
 * Otherwise - 0.
 */
 int main(int argc, char *argv[])
 {
-intcents, coins = 0;
+int cents, coins = 0;
 if (argc != 2)
 {
-printf("Error\n");
+printber of argments suf("Error\n");
 return (1);
 }
 cents = atoi(argv[1]);
@@ -25,7 +25,7 @@ if ((cents - 25) >= 0)
 cents -= 25;
 continue;
 }
-if ((cents - 10) >=  0)
+if ((cents - 10) >= 0)
 {
 cents -= 10;
 continue;
