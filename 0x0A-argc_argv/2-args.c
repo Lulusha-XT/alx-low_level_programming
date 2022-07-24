@@ -11,4 +11,4 @@ int arg;
 for (arg = 0; arg < argc; arg++)
 printf("%\n",argv[arg]);
 return (0);
-
+}
