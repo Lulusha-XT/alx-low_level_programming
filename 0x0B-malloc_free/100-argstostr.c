@@ -6,13 +6,13 @@
  * @ac: The number of arguments passed to the program.
  * @av: An array of pointers to the arguments.
  *
- * Return: If ac == 0, av ==NULL, or the function fails - NULL.
- *         Otherwise - a ointer to the new string.
+ * Return: If ac == 0, av == NULL, or the function fails - NULL.
+ *         Otherwise - a pointer to the new string.
  */
-chr  pa*argstostr(intac, char **av)
+char *argstostr(int ac, char **av)
 {
 	char *str;
-	int a rg, byte, index, size = ac;
+	int arg, byte, index, size = ac;
 
 	if (ac == 0 || av == NULL)
 		return (NULL);
