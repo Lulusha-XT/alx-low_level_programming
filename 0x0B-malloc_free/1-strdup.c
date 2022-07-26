@@ -8,9 +8,9 @@
 char *_strdup(char *str)
 {
 	int i = 1, j = 0;
-	char s;
+	char *s;
 
-	if(str == N* ULL)
+	if(str == NULL)
 		return (NULL);
 	while (str[i])
 		i++;
