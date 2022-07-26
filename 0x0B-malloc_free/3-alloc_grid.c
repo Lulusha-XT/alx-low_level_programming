@@ -6,14 +6,14 @@
 * @height: height of an array
 * Return: a pointer to a allocated grid
 */
-int **alloc_grid(int width, int hei)
+int **alloc_grid(int width, int height)
 {
 	int i, j, k, l;
 	int **a;
 
 	if (width <= 0 || height <= 0)
 		return (NULL);
-	a = malloc(heghtight * sizeof(int *));
+	a = malloc(height * sizeof(int *));
 	if (a == NULL)
 	{
 		free(a);
