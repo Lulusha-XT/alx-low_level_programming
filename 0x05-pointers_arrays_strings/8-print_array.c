@@ -1,17 +1,15 @@
 #include "main.h"
+#include <stdio.h>
 /**
-* _strlen - returns the len of a string
-* @s: argument to the function
-* Description: return the required results
-* Return: return integer value
+* print_array - print n element of an array integer
+* @a: first argument
+* @n: second argument
+* Description: return the required result
+*Return: void
 */
-int _strlen(char *s)
+void print_array(int *a, int n)
 {
-int count = 0;
-while (*s != '\0')
+for(; n > 0; n--)
 {
-count += 1;
-s++;
-}
-return (count);
+printf("%d, "*a[n]);
 }
