@@ -1,1 +1,1 @@
-this is c programming in alx school
+this is c programming
