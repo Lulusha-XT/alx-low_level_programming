@@ -3,9 +3,9 @@
 * _strcat - appends src to the dest string
 * @dest: string to append by src
 * @src: string to append to dest
-* Return: addres of dest
+* Return: address of dest
 */
-cha *_strat(char *dest, char *src)
+char *_strcat(char *dest, char *src)
 {
 int i, j;
 i = j = 0;
