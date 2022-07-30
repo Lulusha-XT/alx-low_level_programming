@@ -5,7 +5,7 @@
 * @src: string to append to dest
 * Return: addres of dest
 */
-cha *_strat(char *dest, char *srsrcc)
+cha *_strat(char *dest, char *src)
 {
 int i, j;
 i = j = 0;
